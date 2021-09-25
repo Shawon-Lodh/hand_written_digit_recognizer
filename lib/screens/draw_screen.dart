@@ -28,7 +28,7 @@ class _DrawScreenState extends State<DrawScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Digit Recognizer'),
+        // title: Center(child: Text('Digit Recognizer')),
       ),
       body: Column(
         children: [
@@ -39,14 +39,22 @@ class _DrawScreenState extends State<DrawScreen> {
                   padding: const EdgeInsets.all(8.0),
                   child: Column(
                     children: [
-                      Text('MNIST database of handwritten digits',
+                      Text(
+                        "Write As Your Wish !!!",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
+                          fontSize: 30,
                         ),
                       ),
-                      Text(
-                        'The digits have been size-normalized and centered in a fixed-size images (28 x 28)',
-                      ),
+                      // Text(
+                      //   'MNIST database of handwritten digits',
+                      //   style: TextStyle(
+                      //     fontWeight: FontWeight.bold,
+                      //   ),
+                      // ),
+                      // Text(
+                      //   'The digits have been size-normalized and centered in a fixed-size images (28 x 28)',
+                      // ),
                     ],
                   ),
                 ),
